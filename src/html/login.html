@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site Banana</title>
-    <link rel="stylesheet" href="style-aula.css">
+    <link rel="stylesheet" href="../css/style-aula.css">
 
 </head>
 
@@ -25,16 +25,26 @@
     
     <div>
         <label class="titulo">Usuario:</label>
-        <input type="text" id="username" name="usuario" />
+        <input type="text" id="caixadetexto" name="usuario" />
       </div>
       
       <div>
         <label class="titulo" for="pass">Senha:</label>
-        <input type="password" id="pass" name="senha" minlength="8" required />
+        <input type="password" id="caixadetexto" name="senha" minlength="8" required />
       </div>
       
-      <input type="botao" value="Esqueceu sua conta?">
-    
+      <div class="popup" onclick="myFunction()">Esqueceu sua senha?
+        <span class="popuptext" id="myPopup"> Digite seu e-mail <input type="text" id="caixadetexto" name="usuario"/> </span>
+      </div>
+      <script>
+        // When the user clicks on <div>, open the popup
+        function myFunction() {
+          var popup = document.getElementById("myPopup");
+          popup.classList.toggle("show");
+        }
+        </script>
+      
+
       <input type="submit" value="Entrar" />
 
       <a href="https://term.ooo/4/"><input type="button" value="Crie sua conta!"></a>
