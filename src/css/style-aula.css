@@ -1,0 +1,214 @@
+.page{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+}
+.logo{
+    background-color: #1a650e;
+    text-align: left;
+    display: flex;
+
+}
+.menus{
+    margin: 20px;
+    padding: 20px;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 28px;
+}
+ul{
+    list-style-type: none;
+    margin: 2vh;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1a650e;
+    display: flex;
+    align-items: center;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+.main-area{
+    width: 100%;
+    display: flex;
+    height: 500px;
+    margin: 20px;
+    background-color: gray;
+}
+.content{
+    width: 35%;
+    display: flex;
+    margin: 20px;
+    background-color: white;
+}
+.sidebar{
+    width: 65%;
+    display: flex;
+    margin: 20px;
+    background-color: white;
+}
+footer {
+    background-color: #1a650e;
+    padding: 10px;
+    margin: 2vh;    
+    color: yellow;
+    text-align: center;
+  }
+
+.nav {
+    margin: auto;
+    padding: 20px;
+    width: 70%;
+    background-color: #1a650e;
+
+    
+  }
+body{
+    background-color: #043a04 ;
+}
+.texto{
+    color: #ffffff;
+    text-align: center;
+}
+.titulo{
+    color: #ffffff;
+    text-align:left;
+    margin: 5%;
+    display: block;
+    
+}
+.logo-text {
+    font-size: 18px; /* Adjust as needed */
+    font-weight: bold;
+    margin-right: 20px; /* Add space between icon and text */
+    margin-bottom: 20px;
+}
+#imagem {
+    
+    border: 3px solid #ddd;
+    border-radius: 4px;
+    padding: 1px;
+    width: 300px;
+    border-radius: 20%;
+    
+}
+#menu{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+
+.peuba{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: left;
+    justify-items: center;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    width: 70%;
+}
+.peuba img{
+    width: 25%;
+    text-align: left;
+    display: block;
+}
+.peuba a{
+    color: yellow;
+    font-size: 20px;
+}
+
+
+.textos{
+color: yellow;
+text-align: center;
+
+}
+
+.hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    background-color: #1a650e;
+  }
+
+  .story{
+    width: 100%;
+    height: 25%
+  }
+
+  .box{
+    width: 32%; 
+    margin-left: auto;
+    margin-right: auto; 
+    background-color: #1a650e;
+    border-radius: 50px;
+ 
+}
+#menu #logo img {
+    width: 5px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add space between icon and text */
+    margin-left: 10px;
+    display: row;
+}
+ 
+  input[type='submit'],
+  label {
+    margin-top: 1rem;
+}
+
+.button{
+background-color: #1a650e;
+
+
+}
+.grid-container {
+display: grid;
+grid-template-columns: 24.25% 24.25% 24.25% 24.25%;
+background-color: #1a650e;
+padding: 10px;
+column-gap: 1%;
+row-gap: 1%;
+}
+
+.grid-item {
+background-color: rgba(26, 101, 14, 1);
+border: 1px solid rgba(0, 0, 0, 0.8);
+padding: 20px;
+font-size: 20px;
+text-align: center;
+}
+.botao{
+    position: relative;
+    background-color: #15b615;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    bo;
+}
