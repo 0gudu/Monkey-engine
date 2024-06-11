@@ -1,0 +1,86 @@
+body {
+    height: 96.5vh;
+}
+
+
+/* div responsavel por todo o conteudo da pagina*/
+.tudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+
+
+/* Configuações gerais */
+.general {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    background-color: green;
+    margin-bottom: 1%;
+}
+
+.prop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+
+/* pagina editar produtos */
+.editprod {
+    background-color: green;
+    margin-bottom: 1%;
+}
+
+/* editar as informações da empresa */
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    background-color: green;
+    margin-bottom: 1%;
+}
+.empresa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+
+/* edição pagina sobre */
+.aboutpage {
+    background-color: green;
+    margin-bottom: 1%;
+}
+
+.carrosel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+
+.modifycarrosel{
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-around;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
