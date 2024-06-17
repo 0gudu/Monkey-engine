@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bananas.com</title>
+    <link rel="icon" href="../media/favicon.ico">
+    <link href="../css/main-page.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+    </style>
+</head>
+
+<body>
+    <ul class="menu">
+        <div style="width: 20%;">
+            <li class="logo">
+                <div class="flexboxLogo">
+                    <img src="../media/banana.png" alt="banana icon">
+                    <a>Bananas.com</a>
+                </div>
+            </li>
+        </div>
+
+        <div class="menu-div" style="width: 80%;">
+            <li><a href="main_page.html">Início</a></li>
+            <li><a href="bananas.html">Bananas</a></li>
+            <li><a href="cart.html">Carrinho</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="login.html">Conta</a></li>
+        </div>
+    </ul> 
+    
+    <h1 id="Servindo">
+        Servindo você com Bananas desde 2024
+    </h1>
+    
+    <a href="bananas.html">
+        <div id="promocao" alt="Fundo oferta" usemap="#oferta">
+        
+            <div class="center">
+                <h1 id="colecao" class="center">Nova Coleção</h1>
+            </div>
+            
+        </div>
+    </a>
+    <div>
+        <h3 class="Irish" id="MaisVendidos">
+            Mais Vendidos
+        </h3>
+        <div class="grid-container">
+            <div class="grid-item" id="grid1">
+                <a href="product_page.html">
+                    <div id="ProdutoImg" class="center">
+                        <img src="../media/image 20.png" alt="banana oferta 1" style="align-items: center;">
+                    </div>
+                    <div id="ProdutoInfo" class="center">
+                        <h1 id="NomePrecoBanan" class="Irish">
+                            早上好中国！现在我有香蕉<br>
+                            R$ 9,99 Kg
+                        </h1>
+                    </div>
+                </a>
+            </div>
+
+            <div class="grid-item" id="grid2"></div>
+            <div class="grid-item" id="grid3"></div>
+
+            <script> // Copia e cola os itens do grid
+                var primeiroGrid = document.getElementById("grid1");
+                document.getElementById("grid2").innerHTML = primeiroGrid.innerHTML;
+                document.getElementById("grid3").innerHTML = primeiroGrid.innerHTML;
+            </script>
+        </div>    
+    </div>
+
+    <footer class="fim">
+        <p>
+            Entre em contato em:<br>+55 47 91234-5678 bananan@gmail.com | Endereço: Bananaville, Rua Monki, 875<br>
+Copyright Banana Corp 2024
+        </p>
+   </footer>
+</body></html>
