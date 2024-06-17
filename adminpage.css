@@ -1,5 +1,12 @@
 body {
     height: 96.5vh;
+    background-color: #104e00;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
 }
 
 
@@ -11,6 +18,8 @@ body {
     justify-items: center;
     align-content: center;
     align-items: center;
+    width: 70%;
+    height: 100%;
 }
 
 
@@ -22,8 +31,10 @@ body {
     justify-items: center;
     align-content: center;
     align-items: center;
-    background-color: green;
+    background-color: #d9d9d9;
     margin-bottom: 1%;
+    width: 100%;
+    height: 20vh;
 }
 
 .prop {
@@ -33,12 +44,85 @@ body {
     justify-items: center;
     align-content: center;
     align-items: center;
+    height: 80%;
+    width: 100%;
+    padding-bottom: 2%;
 }
+
+.edit { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    height: 20%;
+    width: 20%;
+}
+
 
 /* pagina editar produtos */
 .editprod {
-    background-color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    background-color: #d9d9d9;
     margin-bottom: 1%;
+    width: 100%;
+    height: 50vh;
+}
+
+.table {
+    width: 80%;
+    height: 80%;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.table table{
+    width: 100%;
+    height: 100%;
+}
+
+.table tbody{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.table tbody tr {
+    height: 5vh;
+    background-color: darkgray;
+}
+
+#delete {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+
+.textdel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    color: white;
+    background-color: red;
+}
+.textdel:hover {
+    cursor: pointer;
 }
 
 /* editar as informações da empresa */
@@ -49,8 +133,9 @@ body {
     justify-items: center;
     align-content: center;
     align-items: center;
-    background-color: green;
+    background-color: #d9d9d9;
     margin-bottom: 1%;
+    width: 100%;
 }
 .empresa {
     display: flex;
@@ -59,12 +144,23 @@ body {
     justify-items: center;
     align-content: center;
     align-items: center;
+    width: 80%;
+    height: 70%;
+    padding-bottom: 3%;
 }
 
 /* edição pagina sobre */
 .aboutpage {
-    background-color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    background-color: #d9d9d9;
     margin-bottom: 1%;
+    width: 100%;
+    height: 100%;
 }
 
 .carrosel {
@@ -74,6 +170,8 @@ body {
     justify-items: center;
     align-content: center;
     align-items: center;
+    width: 80%;
+    height: 80%;
 }
 
 .modifycarrosel{
@@ -83,4 +181,7 @@ body {
     justify-items: center;
     align-content: center;
     align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: darkgray;
 }

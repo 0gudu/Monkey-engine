@@ -8,23 +8,24 @@
 </head>
 <body>
     <div class="tudo">
+        <h1 style="color: white;">Admin</h1>
         <div class="general">
-            <div>Personalização Geral</div>
+            <div><h2>Personalização Geral</h2></div>
             <div class="prop">
-                <div>
-                    <div>Titulo</div>
+                <div class="edit">
+                    <div><h3>Titulo</h3></div>
                     <div>
                         <input type="text" name="" id="">
                     </div>
                 </div>
-                <div>
-                    <div>Fontes</div>
+                <div class="edit">
+                    <div><h3>Fontes</h3></div>
                     <div>
                         <input type="text" name="" id="">
                     </div>
                 </div>
-                <div>
-                    <div>Cores</div>
+                <div class="edit">
+                    <div><h3>Cores</h3></div>
                     <div>
                         <select name="" id="">
                             <option value="">cor</option>
@@ -36,8 +37,8 @@
                         </select>
                     </div>
                 </div>
-                <div>
-                    <div>Plano de Fundo</div>
+                <div class="edit">
+                    <div><h3>Plano de Fundo</h3></div>
                     <div>
                         <input type="file" name="" id="">
                     </div>
@@ -48,8 +49,8 @@
             </div>
         </div>
         <div class="editprod">
-            <div>Edição de Produtos</div>
-            <div>
+            <div><h2>Edição de Produtos</h2></div>
+            <div class="table">
                 <table><thead>
                     <tr>
                       <th>Nome</th>
@@ -59,48 +60,62 @@
                       <th></th>
                     </tr></thead>
                   <tbody>
-                    <tr>
-                      <td>Bananabranca</td>
-                      <td>R$3,99</td>
-                      <td>Banana comum</td>
-                      <td>banana.png</td>
-                      <td>x</td>
-                    </tr>
-                    <tr>
-                      <td>Bananabranca</td>
-                      <td>R$3,99</td>
-                      <td>Banana comum</td>
-                      <td>banana.png</td>
-                      <td>x</td>
-                    </tr>
-                    <tr>
-                      <td>Bananabranca</td>
-                      <td>R$3,99</td>
-                      <td>Banana comum</td>
-                      <td>banana.png</td>
-                      <td>x</td>
-                    </tr>
-                    <tr>
-                      <td>Bananabranca</td>
-                      <td>R$3,99</td>
-                      <td>Banana comum</td>
-                      <td>banana.png</td>
-                      <td>x</td>
-                    </tr>
-                    <tr>
-                      <td>Bananabranca</td>
-                      <td>R$3,99</td>
-                      <td>Banana comum</td>
-                      <td>banana.png</td>
-                      <td>x</td>
-                    </tr>
-                    <tr>
-                      <td>Bananabranca</td>
-                      <td>R$3,99</td>
-                      <td>Banana comum</td>
-                      <td>banana.png</td>
-                      <td>x</td>
-                    </tr>
+                          <tr id="prod001">
+                            <td>Bananabranca</td>
+                            <td>R$3,99</td>
+                            <td>Banana comum</td>
+                            <td>banana.png</td>
+                            <td id="delete"><p class="textdel">x</p></td>
+                          </tr>
+                          <tr id="prod002">
+                            <td>Bananabranca</td>
+                            <td>R$3,99</td>
+                            <td>Banana comum</td>
+                            <td>banana.png</td>
+                            <td id="delete"><p class="textdel">x</p></td>
+                          </tr>
+                          <tr id="prod003">
+                            <td>Bananabranca</td>
+                            <td>R$3,99</td>
+                            <td>Banana comum</td>
+                            <td>banana.png</td>
+                            <td id="delete"><p class="textdel">x</p></td>
+                          </tr>
+                          <tr id="prod004">
+                            <td>Bananabranca</td>
+                            <td>R$3,99</td>
+                            <td>Banana comum</td>
+                            <td>banana.png</td>
+                            <td id="delete"><p class="textdel">x</p></td>
+                          </tr>
+                          <tr id="prod005">
+                            <td>Bananabranca</td>
+                            <td>R$3,99</td>
+                            <td>Banana comum</td>
+                            <td>banana.png</td>
+                            <td id="delete"><p class="textdel">x</p></td>
+                          </tr>
+                          <tr id="prod006">
+                            <td>Bananabranca</td>
+                            <td>R$3,99</td>
+                            <td>Banana comum</td>
+                            <td>banana.png</td>
+                            <td id="delete"><p class="textdel">x</p></td>
+                          </tr>
+                          <tr id="prod007">
+                            <td>Bananabranca</td>
+                            <td>R$3,99</td>
+                            <td>Banana comum</td>
+                            <td>banana.png</td>
+                            <td id="delete"><p class="textdel">x</p></td>
+                          </tr>
+                          <tr id="prod008">
+                            <td>Bananabranca</td>
+                            <td>R$3,99</td>
+                            <td>Banana comum</td>
+                            <td>banana.png</td>
+                            <td id="delete"><p class="textdel">x</p></td>
+                          </tr>
                   </tbody>
                   </table>
             </div>
@@ -109,19 +124,19 @@
             </div>
         </div>
         <div class="details">
-            <div>Detalhes da Empresa</div>
+            <div><h2>Detalhes da Empresa</h2></div>
             <div class="empresa">
-                <div>
-                    <div>Endereço</div>
-                    <div>BANANAVILLE, RUA MONKI, 875</div>
+                <div class="edit">
+                    <div><h3>Endereço</h3></div>
+                    <div><input type="text" placeholder="BANANAVILLE, RUA MONKI, 875"></div>
                 </div>
-                <div>
-                    <div>Telefone</div>
-                    <div>+55 47 91234-5678</div>
+                <div class="edit">
+                    <div><h3>Telefone</h3></div>
+                    <div><input type="text" placeholder="+55 47 91234-5678"></div>
                 </div>
-                <div>
-                    <div>Email</div>
-                    <div>BANANAN@GMAIL.COM</div>
+                <div class="edit">
+                    <div><h3>Email</h3></div>
+                    <div><input type="text" placeholder="BANANAN@GMAIL.COM"></div>
                 </div>
             </div>
             <div>
@@ -129,56 +144,54 @@
             </div>
         </div>
         <div class="aboutpage">
-            <div>Pagina "Sobre"</div>
+            <div><h2>Pagina "Sobre"</h2></div>
             <div class="carrosel">
-                <div>Carrosel 1</div>
+                <div><h2>Carrosel 1</h2></div>
                 <div class="modifycarrosel">
-                    <div >
-                        <div>Titulo</div>
-                        <div>Quem Somos?</div>
+                    <div class="edit">
+                        <div><h3>Titulo</h3></div>
+                        <div><input type="text" placeholder="Quem Somos?"></div>
                     </div>
-                    <div>
-                        <div>Descrição</div>
-                        <div>Somos.txt</div>
+                    <div class="edit">
+                        <div><h3>Descrição</h3></div>
+                        <div><input type="file" placeholder="">somos.txt</div>
                     </div>
-                    <div>
-                        <div>Imagem</div>
+                    <div class="edit">
+                        <div><h3>Imagem</h3></div>
                         <div>Somos.png</div>
                     </div>
                 </div>
-                <div>Carrosel 2</div>
+                <div><h2>Carrosel 2</h2></div>
                 <div class="modifycarrosel">
-                    <div>
-                        <div>Titulo</div>
-                        <div>Nossa historia</div>
+                    <div class="edit">
+                        <div><h3>Titulo</h3></div>
+                        <div><input type="text" placeholder="Nossa historia"></div>
                     </div>
-                    <div>
-                        <div>Descrição</div>
-                        <div>Nossa.txt</div>
+                    <div class="edit">
+                        <div><h3>Descrição</h3></div>
+                        <div><input type="file" placeholder="">Nossa.txt</div>
                     </div>
-                    <div>
-                        <div>Imagem</div>
-                        <div>Nossa.png</div>
+                    <div class="edit">
+                        <div><h3>Imagem</h3></div>
+                        <div<input type="file" placeholder="">>Nossa.png</div>
+                    </div>
+                    <div><h2>Carrosel 3</h2></div>
+                    <div class="modifycarrosel">
+                        <div class="edit">
+                            <div><h3>Titulo</h3></div>
+                            <div><input type="text" placeholder="Nosso objetivo"></div>
+                        </div>
+                        <div class="edit">
+                            <div><h3>Descrição</h3></div>
+                            <div><input type="file" placeholder="">Obj.txt</div>
+                        </div>
+                        <div class="edit">
+                            <div><h3>Imagem</h3></div>
+                            <div><input type="file" placeholder="">Obj.png</div>
+                        </div>
                     </div>
                 </div>
-                <div>Carrosel 3</div>
-                <div class="modifycarrosel">
-                    <div>
-                        <div>Titulo</div>
-                        <div>Nosso objetivo</div>
-                    </div>
-                    <div>
-                        <div>Descrição</div>
-                        <div>Obj.txt</div>
-                    </div>
-                    <div>
-                        <div>Imagem</div>
-                        <div>Obj.png</div>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <Input type="button" value="Adicionar Produtos">
+                <Input type="button" value="Aplicar">
             </div>
         </div>
     </div>
