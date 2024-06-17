@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="adminpage.css">
     <title>Document</title>
+    <script src="src/js/jquery.js"></script>
 </head>
 <body>
+    <h1 style="color: white;">Admin</h1>
     <div class="tudo">
-        <h1 style="color: white;">Admin</h1>
+        
         <div class="general">
             <div><h2>Personalização Geral</h2></div>
             <div class="prop">
@@ -120,7 +122,7 @@
                   </table>
             </div>
             <div>
-                <Input type="button" value="Adicionar Produtos">
+                <Input type="button" value="Adicionar Produtos" onclick="mostraradd()">
             </div>
         </div>
         <div class="details">
@@ -195,5 +197,19 @@
             </div>
         </div>
     </div>
+    <div id="add">
+        <input type="button" value="x" id="close">
+        <div style="width: 10%; height: 5%; background-color: aqua;">
+
+        </div>
+    </div>
 </body>
+<script>
+    function mostraradd(){
+        $("#add").css("display","flex");
+    }
+    $("#close").on("click", function(){
+        $("#add").css("display","none");
+    })
+</script>
 </html>

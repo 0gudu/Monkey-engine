@@ -1,5 +1,5 @@
 body {
-    height: 96.5vh;
+
     background-color: #104e00;
     display: flex;
     flex-direction: column;
@@ -34,7 +34,7 @@ body {
     background-color: #d9d9d9;
     margin-bottom: 1%;
     width: 100%;
-    height: 20vh;
+    height: 100%;
 }
 
 .prop {
@@ -184,4 +184,17 @@ body {
     width: 100%;
     height: 100%;
     background-color: darkgray;
+}
+
+/* adcionar prod, pag */
+#add{
+    display: none;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    position: absolute;
+    width: 1000vh;
+    height:1000vh;
+    background-color: rgb(0, 0, 0,0.5);
 }
