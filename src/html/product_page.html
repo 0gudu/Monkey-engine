@@ -5,20 +5,23 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>ProductPage</title>
-        <link rel="stylesheet" href="../css/style-aula.css">
+        <link href="../css/product-page.css" rel="stylesheet">
 </head>
 <body>
-    <img src="background.png" alt="Fundo">
-    <ul id="menu">
-        <li class="logo"><div class="peuba"><img src="../media/banana.png" alt="banana icon"><a>Bananas.com</a></div></li>
+    <header class="menu">
+        <a class="flexboxLogo" href="main_page.html">
+            <img class="logo" src="../media/banana.png" alt="banana icon" style="width: 55px;">
+            <p>Bananas.com</p>
+        </a>
 
-        
-        <li><a href="#index">Início</a></li>
-        <li><a href="#bananas">Bananas</a></li>
-        <li><a href="#carrinho">Carrinho</a></li>
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#conta">Conta</a></li>
-    </ul>
+        <nav class="navbar">
+            <a class="navbar-item" href="main_page.html">Início</a>
+            <a class="navbar-item" href="bananas.html">Bananas</a>
+            <a class="navbar-item" href="cart.html">Carrinho</a>
+            <a class="navbar-item" href="sobre.html">Sobre</a>
+            <a class="navbar-item" href="login.html">Conta</a>
+        </nav>
+    </header>
     <nav class="nav" style="opacity: 70%; background-color: 104E00; width: 93%; border-radius: 25px;">
         <div>
             <img src="../media/banana.png" alt="product">

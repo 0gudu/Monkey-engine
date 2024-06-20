@@ -12,16 +12,73 @@ body{
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: scroll;
-    background-size: 2150px 1520px; 
-    /*overflow: hidden;*/
+    background-size: 2150px 1620px;
 }
 
-ul{
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #1C8B00;
+    font-family: 'Irish Grover';
+    font-weight: lighter;
+}
+.navbar{
+    display: flex;
+    gap: 8%;
+    right: 5%;
+    width: 95%;
+    position: relative;
+    justify-content: flex-end;
+}
+.navbar-item{
+    font-size: 15px;
+    font-weight: lighter;
+
+    background-color: #177100; 
+    height: 30px;
+    width: 120px;
+    
+    border-radius: 5px;
+    align-content: center;
+    text-align: center;
+}
+.navbar-item:link{
+    font-weight: lighter;
+    color: #FAFF00;
+}
+.navbar-item:visited{
+    font-weight: lighter;
+    color: #FAFF00;
+}
+.navbar-item:hover{
+    font-weight: lighter;
+    color: #FAFF00;
+    text-decoration: underline;
+}
+.navbar-item:active{
+    font-weight: lighter;
+    color: #FAFF00;
+}
+.flexboxLogo{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-left: 10px;
+    width: 20%;
+}
+.flexboxLogo p{
+    color: #FAFF00;
+    font-size: 30px;
+}
+
+/*ul{
     list-style-type: none;
     background-color: #1a650e;
     padding: 0px;
     overflow: hidden;
-
     display: flex;
     align-items: center;
 }
@@ -34,7 +91,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
+}*/
 
 footer {
     background-color: #1a650e;
@@ -61,13 +118,14 @@ footer {
     display: flex;
     margin-left: 7px;
 }
-.menu{
+/*.menu{
     display: flex;
     flex-direction: row;
-    height: auto;
+    height: 70px;
     margin-bottom: 20px;
     justify-content: space-around;
-}
+    font-family: 'Irish Grover';
+}*/
 
 .menu-div{
     display: flex;
@@ -82,30 +140,6 @@ footer {
     display: row;
 }
 
-.flexboxLogo{
-    display: flex;
-    align-content: center;
-    align-items: center;
-    justify-content: left;
-    justify-items: center;
-    display: flex;
-    flex-direction: row;
-    align-content: space-between;
-    width: 70%;
-}
-.flexboxLogo img{
-    width: 40px;
-    text-align: left;
-    display: block;
-}
-.flexboxLogo a{
-    color: yellow;
-    font-size: 20px;
-}
-
-a {
-    color: black;
-}
 
 .center{
     height: 100%;
