@@ -9,6 +9,7 @@
     display: flex;
     flex-direction: row;
     width: 100%;
+    
 }
 .logo{
     background-color: #1a650e;
@@ -161,7 +162,6 @@ text-align: center;
   .box{
     text-align: center;
     width: 32%; 
-    height: 80%;
     margin-left: auto;
     margin-right: auto; 
     background-color: #1a650e;
@@ -187,20 +187,23 @@ background-color: #1a650e;
 
 
 }
-
-.botao{
-    
-    position: relative;
-    background-color: #15b615;
-    border: none;
-    font-size: 28px;
-    color: #FFFFFF;
-    padding: 20px;
-    width: 250px;
-    text-align: center;
-    border-radius: 10px;
-    margin: 1%;
+.grid-container {
+display: grid;
+grid-template-columns: 24.25% 24.25% 24.25% 24.25%;
+background-color: #1a650e;
+padding: 10px;
+column-gap: 1%;
+row-gap: 1%;
 }
+
+.grid-item {
+background-color: rgba(26, 101, 14, 1);
+border: 1px solid rgba(0, 0, 0, 0.8);
+padding: 20px;
+font-size: 20px;
+text-align: center;
+}
+
 .caixadetexto{
     position: relative;
     background-color: #ffffff;

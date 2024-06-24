@@ -18,6 +18,36 @@ button{
     
     font-size: larger;
 }
+
+.botao{
+    position: relative;
+    background-color: #FFFFFF;
+    border: none;
+    font-size: 26px;
+    color: #15b615;
+    width: 250px;
+    height: 35px;
+    text-align: center;
+    border-radius: 200px;
+    margin: 1%;
+
+} 
+
+.botao:hover{
+    position: relative;
+    background-color: #15b615;
+    border: none;
+    font-size: 26px;
+    color: #FFFFFF;
+    width: 250px;
+    height: 35px;
+    text-align: center;
+    border-radius: 200px;
+    margin: 1%;
+
+}
+
+
 .title{
     height: 7%;
     width: 90%;
@@ -29,14 +59,14 @@ button{
 
 }
 hr{
-    background-color: darkgreen;
+    background-color: #1a650e;
     height: 2px;
     border: 0;
     width: 100%;
 }
 .cart{
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
     height: 93%;
     width: 100%;
     align-items: center;
@@ -51,7 +81,8 @@ hr{
     flex-direction: column;
     overflow-y: auto;
     border: solid 2px rgba(0,0,0,0.3);
-    
+    background-color: #207213;
+    border-radius: 10px;
 }
 .item{
     background-color: white;
@@ -120,10 +151,10 @@ hr{
     justify-content: center;
     flex-direction: column;
     justify-content: center;
-    background-color: yellow;
+    background-color: hsla(60, 100%, 50%, 1);
     box-shadow: -6px 6px 18px -7px rgba(0,0,0,0.75);
--webkit-box-shadow: -6px 6px 18px -7px rgba(0,0,0,0.75);
--moz-box-shadow: -6px 6px 18px -7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -6px 6px 18px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: -6px 6px 18px -7px rgba(0,0,0,0.75);
     border-radius: 10px;
 }
 .info-text{
