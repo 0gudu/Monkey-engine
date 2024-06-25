@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>ProductPage</title>
+        <link rel="icon" href="../media/favicon.ico">
         <link href="../css/product-page.css" rel="stylesheet">
 </head>
 <body>
@@ -22,21 +23,34 @@
             <a class="navbar-item" href="login.html">Conta</a>
         </nav>
     </header>
-    <nav class="nav" style="opacity: 70%; background-color: 104E00; width: 93%; border-radius: 25px;">
-        <div>
-            <img src="../media/banana.png" alt="product">
+    <nav class="produto">
+        <div class="produto-img">
+            <img src="../media/banana.png" alt="product" style="width: auto;">
         </div>
-        <div>
-            <h2 style="right: 500px;">Banana Caturra</h2>
-            <p>lorem</p>
-            <h2>R$3,99</h2>
-            <a href="cart.html"><input type="button" value="Comprar"></a>
+        <div class="produto-info">
+            <div class="descricao">
+                <h2 style="right: 500px;">Banana Caturra</h2>
+
+                <p>Banana Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ea laborum? Est quaerat, molestiae voluptate debitis expedita reprehenderit explicabo fugiat? Hic ipsam sunt explicabo nostrum. Totam incidunt earum sint fuga?<br>
+                Banana Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ea laborum? Est quaerat, molestiae voluptate debitis expedita reprehenderit explicabo fugiat? Hic ipsam sunt explicabo nostrum. Totam incidunt earum sint fuga?</p>
+                
+                <h2>R$3,99</h2>
+            </div>
+            <div class="botoes">
+                <button type="button"><a href="cart.html"></a>Comprar</button>
+                <button type="button"><a href="cart.html"></a>Adicionar<br>ao Carrinho</button>
+            </div>
         </div>
     </nav>
-    <footer>
-         <p>
-            Copyright Banana Corp 2024
-         </p>
-    </footer>
+
+<!--Footer-->
+    <footer class="fim">
+        <address style="line-height: 1.2;">
+            Entre em contato em: +55 (47) 91234-5678 | <a href="mailto:bananan@gmail.com" style="color: #FAFF00;">bananan@gmail.com</a><br>Endereço: Bananaville, Rua Monki, 875<br><br>
+        </address>
+        <p style="font-size: 90%;">
+            Copyright Banana Corp. 2024
+        </p>
+   </footer>
 </body>
 </html>
