@@ -1,5 +1,6 @@
+@import url("padrao.css");
 .logo{/*css da nav bar*/
-    background-color: #1a650e;
+
     text-align: start;
     display: flex;
 }

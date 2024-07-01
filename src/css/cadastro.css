@@ -1,3 +1,5 @@
+@import url("padrao.css");
+
 ul{/*css da nav bar*/
     list-style-type: none;
     margin-left: -2vh;
