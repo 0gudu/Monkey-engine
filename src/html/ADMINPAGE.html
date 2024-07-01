@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/adminpage.css">
+    <title>Admin</title>
+    <script src="../js/jquery.js"></script>
+</head>
+<body>
+    <h1 style="color: white;">Admin</h1>
+    <div class="tudo">
+        
+        <div class="general">
+            <div><h2>Personalização Geral</h2></div>
+            <div class="prop">
+                <div class="edit">
+                    <div><h3>Titulo</h3></div>
+                    <div>
+                        <input type="text" name="" id="">
+                    </div>
+                </div>
+                <div class="edit">
+                    <div><h3>Fontes</h3></div>
+                    <div>
+                        <input type="text" name="" id="">
+                    </div>
+                </div>
+                <div class="edit">
+                    <div><h3>Cores</h3></div>
+                    <div>
+                        <select name="" id="">
+                            <option value="">cor</option>
+                            <option value="">cor</option>
+                            <option value="">cor</option>
+                            <option value="">cor</option>
+                            <option value="">cor</option>
+                            <option value="">cor</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="edit">
+                    <div><h3>Plano de Fundo</h3></div>
+                    <div>
+                        <input type="file" name="" id="">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <Input type="button" value="Aplicar">
+            </div>
+        </div>
+        <div class="editprod">
+            <div><h2>Edição de Produtos</h2></div>
+            <div class="table">
+                <table><thead>
+                    <tr>
+                      <th>Nome</th>
+                      <th>Preço</th>
+                      <th>Descrição</th>
+                      <th>Imagem</th>
+                      <th></th>
+                    </tr></thead>
+                  <tbody>
+                          <tr id="prod001">
+                            <td>Bananabranca</td>
+                            <td>R$3,99</td>
+                            <td>Banana comum</td>
+                            <td>banana.png</td>
+                            <td id="delete"><p class="textdel">x</p></td>
+                          </tr>
+                          <tr id="prod002">
+                            <td>Bananabranca</td>
+                            <td>R$3,99</td>
+                            <td>Banana comum</td>
+                            <td>banana.png</td>
+                            <td id="delete"><p class="textdel">x</p></td>
+                          </tr>
+                          <tr id="prod003">
+                            <td>Bananabranca</td>
+                            <td>R$3,99</td>
+                            <td>Banana comum</td>
+                            <td>banana.png</td>
+                            <td id="delete"><p class="textdel">x</p></td>
+                          </tr>
+                          <tr id="prod004">
+                            <td>Bananabranca</td>
+                            <td>R$3,99</td>
+                            <td>Banana comum</td>
+                            <td>banana.png</td>
+                            <td id="delete"><p class="textdel">x</p></td>
+                          </tr>
+                          <tr id="prod005">
+                            <td>Bananabranca</td>
+                            <td>R$3,99</td>
+                            <td>Banana comum</td>
+                            <td>banana.png</td>
+                            <td id="delete"><p class="textdel">x</p></td>
+                          </tr>
+                          <tr id="prod006">
+                            <td>Bananabranca</td>
+                            <td>R$3,99</td>
+                            <td>Banana comum</td>
+                            <td>banana.png</td>
+                            <td id="delete"><p class="textdel">x</p></td>
+                          </tr>
+                          <tr id="prod007">
+                            <td>Bananabranca</td>
+                            <td>R$3,99</td>
+                            <td>Banana comum</td>
+                            <td>banana.png</td>
+                            <td id="delete"><p class="textdel">x</p></td>
+                          </tr>
+                          <tr id="prod008">
+                            <td>Bananabranca</td>
+                            <td>R$3,99</td>
+                            <td>Banana comum</td>
+                            <td>banana.png</td>
+                            <td id="delete"><p class="textdel">x</p></td>
+                          </tr>
+                  </tbody>
+                  </table>
+            </div>
+            <div>
+                <Input type="button" value="Adicionar Produtos" onclick="mostraradd()">
+            </div>
+        </div>
+        <div class="details">
+            <div><h2>Detalhes da Empresa</h2></div>
+            <div class="empresa">
+                <div class="edit">
+                    <div><h3>Endereço</h3></div>
+                    <div><input type="text" placeholder="BANANAVILLE, RUA MONKI, 875"></div>
+                </div>
+                <div class="edit">
+                    <div><h3>Telefone</h3></div>
+                    <div><input type="text" placeholder="+55 47 91234-5678"></div>
+                </div>
+                <div class="edit">
+                    <div><h3>Email</h3></div>
+                    <div><input type="text" placeholder="BANANAN@GMAIL.COM"></div>
+                </div>
+            </div>
+            <div>
+                <Input type="button" value="Aplicar">
+            </div>
+        </div>
+        <div class="aboutpage">
+            <div><h2>Pagina "Sobre"</h2></div>
+            <div class="carrosel">
+                <div><h2>Carrosel 1</h2></div>
+                <div class="modifycarrosel">
+                    <div class="edit">
+                        <div><h3>Titulo</h3></div>
+                        <div><input type="text" placeholder="Quem Somos?"></div>
+                    </div>
+                    <div class="edit">
+                        <div><h3>Descrição</h3></div>
+                        <div><input type="file" placeholder="">somos.txt</div>
+                    </div>
+                    <div class="edit">
+                        <div><h3>Imagem</h3></div>
+                        <div>Somos.png</div>
+                    </div>
+                </div>
+                <div><h2>Carrosel 2</h2></div>
+                <div class="modifycarrosel">
+                    <div class="edit">
+                        <div><h3>Titulo</h3></div>
+                        <div><input type="text" placeholder="Nossa historia"></div>
+                    </div>
+                    <div class="edit">
+                        <div><h3>Descrição</h3></div>
+                        <div><input type="file" placeholder="">Nossa.txt</div>
+                    </div>
+                    <div class="edit">
+                        <div><h3>Imagem</h3></div>
+                        <div<input type="file" placeholder="">>Nossa.png</div>
+                    </div>
+                    <div><h2>Carrosel 3</h2></div>
+                    <div class="modifycarrosel">
+                        <div class="edit">
+                            <div><h3>Titulo</h3></div>
+                            <div><input type="text" placeholder="Nosso objetivo"></div>
+                        </div>
+                        <div class="edit">
+                            <div><h3>Descrição</h3></div>
+                            <div><input type="file" placeholder="">Obj.txt</div>
+                        </div>
+                        <div class="edit">
+                            <div><h3>Imagem</h3></div>
+                            <div><input type="file" placeholder="">Obj.png</div>
+                        </div>
+                    </div>
+                </div>
+                <Input type="button" value="Aplicar">
+            </div>
+        </div>
+    </div>
+    <div id="add">
+        <input type="button" value="x" id="close">
+        <div style="width: 10%; height: 5%; background-color: aqua;">
+
+        </div>
+    </div>
+</body>
+<script>
+    function mostraradd(){
+        $("#add").css("display","flex");
+    }
+    $("#close").on("click", function(){
+        $("#add").css("display","none");
+    })
+</script>
+</html>
