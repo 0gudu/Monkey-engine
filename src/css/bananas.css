@@ -17,9 +17,12 @@
     padding: 20px;
     font-size: 20px;
     text-align: center;
+    border-radius: 10px;
     }
 
     .grid-item:hover {
         cursor: pointer;
         background-color: #2fff0f;
         }
+
+    
