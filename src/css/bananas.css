@@ -1,1 +1,25 @@
 @import url("padrao.css");
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 24.25% 24.25% 24.25% 24.25%;
+    background-color: #1a650e;
+    padding: 10px;
+    column-gap: 1%;
+    row-gap: 1%;
+    width: 70%;
+    height: 100%;
+    }
+    
+    .grid-item {
+    background-color: rgba(26, 101, 14, 1);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    }
+
+    .grid-item:hover {
+        cursor: pointer;
+        background-color: #2fff0f;
+        }

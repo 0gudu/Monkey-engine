@@ -1,1 +1,164 @@
-@import url("padrao.css");
+.logo{/*css da nav bar*/
+    background-color: #1a650e;
+    text-align: start;
+    display: flex;
+}
+
+body{
+    overflow: hidden;
+    height: 96.5vh;
+    background-image: url(../media/background.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: scroll;
+    background-size: 2150px 1520px;
+}
+
+ul{/*css da nav bar*/
+    list-style-type: none;
+    margin-left: -2vh;
+    margin-right: -2vh;
+    margin-top: -2vh;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1a650e;
+    display: flex;
+    align-items: center;
+}
+
+li{/*css da nav bar*/
+    float: center;
+}
+
+li a{/*css da nav bar*/
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0px 55px;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+ 
+.peuba{/*css da nav bar, logo*/
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: left;
+    justify-items: center;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    width: 70%;
+}
+
+.texto{
+    color: #ffffff;
+    text-align: center;
+} 
+
+.titulo{/*palavras tipo usuario ou email*/
+    color: #ffffff;
+    margin: 1%;
+    margin-top: 2%;
+    display: block;
+    font-size: 28px;
+}
+ 
+
+/*coloquei a altura no auto, mas no box2 não serve direito*/
+.box{
+    text-align: center;
+    width: 42%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    background-color: #1a650e;
+    border-radius: 25px;
+    height: auto;
+}
+
+.botao1{
+    /*botao de login */
+    position: relative;
+    background-color: white;
+    border: none;
+    font-size: 28px;
+    color: #15b615;
+    padding: 20px;
+    width: 28%;
+    height: auto;
+    text-align: center;
+    border-radius: 10px;
+    margin: 2%;
+    margin-bottom: 2%;
+}
+
+.botao1:hover{
+    background-color: #15b615;
+    color: white;
+}
+ 
+.botao2{
+    /*botao criar conta no login,é menor*/
+     position: relative right;
+     background-color: #ffffff;
+     border: none;
+     font-size: 130%;
+     color: #15b615;
+     padding: 8px;
+     width: 45%;
+     text-align: center;
+     border-radius: 10px;
+     margin: 2%;
+}
+
+.botao2:hover{/*botao criar conta*/
+     background-color: #15b615ad;
+     color: white;
+}
+
+.botao3{
+    /*botao esqueceu senha login,é menor*/
+    position: relative right;
+    background-color: #1a650e;
+    border: none;
+    font-size: 110%;
+    color: #fff;
+    padding: 8px;
+    width: 45%;
+    text-align: center;
+    border-radius: 10px;
+    margin: 1%;
+}
+
+.caixadetexto{
+    position: relative;
+    background-color: #ffffff;
+    border: none;
+    font-size: 20px;
+    color: #15b615;
+    padding: 10px;
+    width: 90%;
+    text-align: center;
+    border-radius: 10px;
+    margin: 1%;
+}
+
+footer {
+    background-color: #1a650e;
+    padding: 10px;
+    margin-top: 0vh;
+    margin-left: -2vh;
+    margin-right: -2vh;
+    color: yellow;
+    text-align: center;
+}
+
+.fim{/*footer, ajustes finos */
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+ 

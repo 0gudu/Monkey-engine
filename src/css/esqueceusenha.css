@@ -1,3 +1,19 @@
+.logo{
+    background-color: #1a650e;
+    text-align: start;
+    display: flex;
+}
+
+body{
+    overflow-x: hidden;
+    height: 96.5vh;
+    background-image: url(../media/background.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: scroll;
+    background-size: 2150px 1520px;
+
+}
 ul{/*css da nav bar*/
     list-style-type: none;
     margin-left: -2vh;
@@ -22,15 +38,23 @@ li a {/*css da nav bar*/
     text-decoration: none;
     font-size: x-large;
 }
+    
+#imagem {/*css da imagem de fundo*/
+    border: 3px solid #ddd;
+    border-radius: 4px;
+    padding: 1px;
+    width: 300px;
+    border-radius: 20%;
+}
 
-#menu{/*css da nav bar, logo*/
+#menu{/*css da nav bar*/
     display: flex;
     flex-direction: row;
     height: auto;
 }
-
-.peuba{/*css da nav bar, logo*/
-    display: flex;
+ 
+.peuba{
+    display: flex;/*css da nav bar, logo*/
     align-content: center;
     align-items: center;
     justify-content: left;
@@ -39,16 +63,6 @@ li a {/*css da nav bar*/
     flex-direction: row;
     align-content: space-between;
     width: 70%;
-}
-
-body{
-    overflow-x: hidden;
-    height: 96.5vh;
-    background-image: url(../media/background.png);
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-attachment: scroll;
-    background-size: 2150px 1520px;
 }
 
 .texto{
@@ -64,19 +78,6 @@ body{
     font-size: 28px;
 }
 
-/*coloquei a altura no auto, mas no box2 não serve*/
-.box{
-    text-align: center;
-    width: 42%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 3%;
-    margin-bottom: 3%;
-    background-color: #1a650e;
-    border-radius: 25px;
-    height: auto;
-}
-
 .caixadetexto{
     position: relative;
     background-color: #ffffff;
@@ -89,7 +90,7 @@ body{
     border-radius: 10px;
     margin: 1%;
 }
- 
+
 .botao{
     /*botoes centrais, maiores */
      position: relative;
@@ -103,14 +104,9 @@ body{
      border-radius: 10px;
      margin: 2%;
      margin-bottom: 4%;
- }
- 
- .botao:hover {
-     background-color: #15b615;
-     color: white;
- }
+}
 
- footer {
+footer {
     background-color: #1a650e;
     padding: 10px;
     margin-top: 0vh;
@@ -118,4 +114,23 @@ body{
     margin-right: -2vh;
     color: yellow;
     text-align: center;
+}
+
+.fim{/*esqueceu senha, footer diferente do de login ou cadastro*/
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    position: fixed;
+}
+/*caixa esqueceu a senha menor. PS:height auto não serve,pq? */
+.box2{
+    align-content: center;    
+    text-align: center;
+    width: 42%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    background-color: #1a650e;
+    border-radius: 10px;
+    height: 45%;
 }
